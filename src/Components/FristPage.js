@@ -3,9 +3,9 @@ import image from '../assets/image.png'
 
 const FristPage = () => {
   return (
-    <div className="w-ful  h-full flex flex- justify-center items-center bg-amber-100">
+    <div className="image1 w-ful  h-full flex flex- justify-center items-center bg-amber-100">
          <div className="flex items-center justify-center columns-lg">
-              <div className='w-[220px] h-[130px] bg-white rounded-[100px] mt-70 justify-center items-center pl-10' >
+              <div className='w-[220px] border-1 h-[130px] bg-white rounded-[100px] mt-70 justify-center items-center pl-10' >
                 <p></p>
               </div>
               <div>

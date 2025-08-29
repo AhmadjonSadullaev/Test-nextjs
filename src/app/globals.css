@@ -25,14 +25,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.margintop{
-  margin-top: -340px;
-
-}
-.margintop1{
-  margin-top:-100px;
-  
-}
-.zfull{
-  z-index: 2;
-}
+ .image1{
+  margin-top: -100px;
+ }
+ .image3{
+  margin-right: -100px;
+  z-index: 1;
+  margin-bottom: -230px;
+ }

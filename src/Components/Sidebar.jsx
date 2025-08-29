@@ -7,20 +7,22 @@ import image3 from '../assets/image4.png'
 const Sidebar = () => {
   return (
     <>
-    <div className='w-full h-[280px] flex items-center border-1 justify-between bg-white'>
+    <div className='w-full h-[300px] flex items-center border-1 justify-between bg-yellow-100'>
         <div>
             <Image src={logo}/>
         </div>
+        <div className='image3 w-[220px] border-1 h-[130px] bg-white rounded-[100px] pl-20  justify-center items-center flex' >
+                <p></p>
+              </div>
          <div>
            <Image src={image2} />
          </div>
     </div>
-    <div className='margintop'>
-       <div className='zfull p-7 flex w-[220px] h-[140px] bg-white rounded-[100px] mt-70 justify-center items-center pl-10 border-1'>
-          <p className='zfull bg-white'>  </p>
-         </div>
-        <div className='margintop1'>
-           <Image src={image3} className='w-full h-[500px]'/>
+   
+    <div className=''>
+   
+        <div className=''>
+            <Image src={image3} className=' w-full h-[500px]'/>
          </div>
     </div>
     </>
